@@ -10,15 +10,28 @@ function set_on_ground(_val = true)
 		coyote_hang_timer = 0;
 	}
 }
-		
 
+		
+// Sprites
+
+idle_spr = sprTestPlayerIdle;
+walk_spr = sprTestPlayerWalk;
+run_spr = sprTestPlayerRun;
+jump_spr = sprTestPlayerJump;
+mask_spr = sprTestPlayerIdle;
+crouch_spr = sprTestPlayerCrouch;
+roll_spr = sprTestPlayerRoll;
 
 // controls setup
 controlsSetup();
 
 // moving
+face = 1;
 move_dir = 0;
-move_spd = 2;
+move_type = 0;
+move_spd[0] = 1.6;
+move_spd[1] = 2.5
+move_spd[2] = 0;
 xspeed = 0;
 yspeed = 0;
 
@@ -47,3 +60,6 @@ coyote_hang_timer = 0;
 // jump buffer time
 coyote_jump_frames = 4;
 coyote_jump_timer = 0;
+
+// Global Pause
+global.paused = false;
