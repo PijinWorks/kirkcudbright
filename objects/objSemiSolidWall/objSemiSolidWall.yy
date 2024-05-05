@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objSpeakBlock",
+  "%Name":"objSemiSolidWall",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objSpeakBlock",
+  "name":"objSemiSolidWall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Dialogue System/Objects.yy",
+    "path":"folders/Objects/SemiSolidCollision/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSpeakBlock",
-    "path":"sprites/sprSpeakBlock/sprSpeakBlock.yy",
+    "name":"sprSemiSolidWall",
+    "path":"sprites/sprSemiSolidWall/sprSemiSolidWall.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
