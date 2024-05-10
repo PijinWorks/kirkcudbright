@@ -82,5 +82,16 @@ function scrGameScript(_text_id) {
 			scrTextShake(88, 91);
 			scrTextFloat(78, 87);
 			break;
+		case "Catective4":
+			scrText("...", "CatectiveDefault", -1);
+			scrText("That platform is far too high for you to reach, fishy one.", "CatectiveDefault", -1);
+			scrText("What will you do?", "CatectiveDefault", -1);
+			scrTextShake(0, 18);
+			scrText("It is impossible.", "CatectiveDefault", -1);
+			break;
+		case "Sign4":
+		scrText("DO NOT TRUST THE CAT.");
+		scrText("THE CHEST HOLD THE KEYS.");
+		break;
 	}
 }
